@@ -10,7 +10,7 @@ from nltk_utils import bag_of_words, tokenize, stem
 from model import NeuralNet
 
 with open('intents.json', 'r') as f:
-    intents = json.load()
+    intents = json.load(f)
 
 all_words = []
 tags = []
