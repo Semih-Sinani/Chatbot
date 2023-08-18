@@ -21,7 +21,7 @@ def stem(word):
     words = [stem(w) for w in words]
     -> ["organ", "organ", "organ"]
     """
-    return stemmer.stem(word.lower())
+    return stemmer.stem(word.lower()
 
 
 def bag_of_words(tokenized_sentence, words):
